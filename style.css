@@ -64,6 +64,10 @@ h1{
     padding: 7px;
     border-radius: 5px;
     text-align: center;
+    cursor: pointer;
+}
+.link:hover{
+    filter: brightness(90%);
 }
 
 .clickable{
