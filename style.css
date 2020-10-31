@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Grandstander:ital,wght@1,500&family=Pacifico&family=Poiret+One&family=Righteous&display=swap');
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Grandstander', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Righteous', cursive;
+*/
+
+*{
+    font-family: 'Poiret One', cursive;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.githubBTN{
+    background-color: #353535;
+    color: white;
+    font-family: 'Righteous', cursive;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#name{
+    font-family: 'Righteous', cursive;
+    font-size: 2.5em;
+    margin-top: 10%;
+}
+
+#projects{
+    width: 50%;
+    margin-top: 5%;
+}
+.project{
+    margin-bottom: 15%;
+}
