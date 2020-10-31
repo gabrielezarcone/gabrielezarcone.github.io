@@ -21,17 +21,19 @@ p{
     font-size: 18px;
 }
 h1{
-    font-size: 32px;
+    font-size: 40px;
 }
 
-.githubBTN{
-    background-color: #353535;
-    color: white;
+.btn{
     text-align: center;
     font-family: 'Righteous', cursive;
     padding: 5px;
     border-radius: 5px;
     width: 200px;
+}
+.github{
+    background-color: #353535;
+    color: white;
 }
 
 #name{
@@ -49,4 +51,21 @@ h1{
 }
 .project{
     margin-bottom: 100px;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 10px;
+    border-radius: 30px;
+}
+.project h3{
+    color: #0173B1;
+}
+.project .link{
+    background-color: #0173B1;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.clickable{
+    cursor: pointer;
+    color: #0173B1;
 }
