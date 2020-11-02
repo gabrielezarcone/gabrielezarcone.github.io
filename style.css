@@ -78,4 +78,13 @@ h1{
 .headerIcon{
     position: fixed;
     left: 5px;
+    cursor: pointer;
+    width: 60px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .headerIcon{
+        position: relative;
+    }
 }
